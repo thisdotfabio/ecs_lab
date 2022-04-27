@@ -1,4 +1,4 @@
-from 833585471893.dkr.ecr.us-east-1.amazonaws.com/node:alpine
+from node:alpine
 
 WORKDIR /usr
 
