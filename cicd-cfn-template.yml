@@ -51,7 +51,7 @@ Resources:
         - arn:aws:iam::aws:policy/AWSCodeBuildDeveloperAccess
         - arn:aws:iam::aws:policy/AWSCodeDeployDeployerAccess
         - arn:aws:iam::aws:policy/AmazonS3FullAccess
-        - arn:aws:iam::aws:policy/AWSCloudFormationReadOnlyAccess
+        - arn:aws:iam::aws:policy/AWSCloudFormationFullAccess
 
   CodeBuildExecutionRole:
     Type: AWS::IAM::Role
